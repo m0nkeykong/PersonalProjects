@@ -1,0 +1,415 @@
+﻿  main.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(6): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2143: syntax error: missing ';' before '{'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2447: '{': missing function header (old-style formal list?)
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(21): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(42): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(36): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  ProgramController.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(6): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2143: syntax error: missing ';' before '{'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2447: '{': missing function header (old-style formal list?)
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(21): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(42): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(36): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2065: '_db': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2614: 'AddItemCommand': illegal member initialization: 'cartToAddTo' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2614: 'RemoveItemCommand': illegal member initialization: 'cartToRemoveFrom' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2614: 'ShowCartCommand': illegal member initialization: 'curCart' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2065: '_db': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2614: 'FinalizeOrderCommand': illegal member initialization: 'cartToPurchase' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.h(20): error C2259: 'ICommand': cannot instantiate abstract class
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.h(20): note: due to following members:
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.h(20): note: 'bool ICommand::execute(void)': is abstract
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(14): note: see declaration of 'ICommand::execute'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.h(21): error C2259: 'ICommand': cannot instantiate abstract class
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.h(21): note: due to following members:
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.h(21): note: 'bool ICommand::execute(void)': is abstract
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(14): note: see declaration of 'ICommand::execute'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.cpp(10): error C2259: 'ICommand': cannot instantiate abstract class
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.cpp(10): note: due to following members:
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.cpp(10): note: 'bool ICommand::execute(void)': is abstract
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(14): note: see declaration of 'ICommand::execute'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.cpp(18): error C2259: 'ICommand': cannot instantiate abstract class
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.cpp(18): note: due to following members:
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\programcontroller.cpp(18): note: 'bool ICommand::execute(void)': is abstract
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(14): note: see declaration of 'ICommand::execute'
+  Item.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.cpp(2): error C2143: syntax error: missing ';' before 'using namespace'
+  ICommand.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(6): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2143: syntax error: missing ';' before '{'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2447: '{': missing function header (old-style formal list?)
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(21): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(42): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(36): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2065: '_db': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2614: 'AddItemCommand': illegal member initialization: 'cartToAddTo' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2614: 'RemoveItemCommand': illegal member initialization: 'cartToRemoveFrom' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2614: 'ShowCartCommand': illegal member initialization: 'curCart' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2065: '_db': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2614: 'FinalizeOrderCommand': illegal member initialization: 'cartToPurchase' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(11): error C2678: binary '==': no operator found which takes a left-hand operand of type 'std::vector<Item,std::allocator<_Ty>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Item
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(11): note: while trying to match the argument list '(std::vector<Item,std::allocator<_Ty>>, int)'
+          with
+          [
+              _Ty=Item
+          ]
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(15): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'std::vector<Item,std::allocator<_Ty>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Item
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(495): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(475): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(455): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(435): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(415): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(395): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(375): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(355): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(335): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(315): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(290): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(270): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(236): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(216): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(209): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(202): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(196): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(29): note: or       'std::ostream &operator <<(std::ostream &,Item &)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(1019): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(981): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::vector<Item,std::allocator<_Ty>>>(std::basic_ostream<char,std::char_traits<char>> &&,const std::vector<_Ty,std::allocator<_Ty>> &)'
+          with
+          [
+              _Ty=Item
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(971): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(964): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(957): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(950): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(824): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(777): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(739): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(692): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(15): note: while trying to match the argument list '(std::ostream, std::vector<Item,std::allocator<_Ty>>)'
+          with
+          [
+              _Ty=Item
+          ]
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(23): error C2660: 'Database::getItemByID': function does not take 2 arguments
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(23): error C2512: 'Item': no appropriate default constructor available
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(13): note: see declaration of 'Item'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(25): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Item' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(25): note: while trying to match the argument list '(Item, int)'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(28): error C2065: 'cartToAddTo': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(28): error C2227: left of '->addItem' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(28): note: type is 'unknown-type'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(39): error C2065: 'cartToRemoveFrom': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(39): error C2227: left of '->removeItem' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(39): note: type is 'unknown-type'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(47): error C2065: 'curCart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(47): error C2227: left of '->getItemList' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(47): note: type is 'unknown-type'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(49): error C2678: binary '==': no operator found which takes a left-hand operand of type 'std::vector<Item,std::allocator<_Ty>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Item
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(49): note: while trying to match the argument list '(std::vector<Item,std::allocator<_Ty>>, int)'
+          with
+          [
+              _Ty=Item
+          ]
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(52): error C2065: 'curCart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(52): error C2227: left of '->getNumOfProd' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(52): note: type is 'unknown-type'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(64): error C2065: 'cartToPurchase': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(64): error C2227: left of '->getItemList' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(64): note: type is 'unknown-type'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(66): error C2678: binary '==': no operator found which takes a left-hand operand of type 'std::vector<Item,std::allocator<_Ty>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Item
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(389): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(381): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(373): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\system_error(365): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(339): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(334): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(66): note: while trying to match the argument list '(std::vector<Item,std::allocator<_Ty>>, int)'
+          with
+          [
+              _Ty=Item
+          ]
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(69): error C2065: 'cartToPurchase': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(69): error C2227: left of '->getNumOfProd' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(69): note: type is 'unknown-type'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(74): error C2065: 'cartToPurchase': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(74): error C2227: left of '->getTotal' must point to class/struct/union/generic type
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.cpp(74): note: type is 'unknown-type'
+  Database.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(6): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2143: syntax error: missing ';' before '{'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2447: '{': missing function header (old-style formal list?)
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(21): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(42): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(36): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(8): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(9): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(24): error C3867: 'Item::getName': non-standard syntax; use '&' to create a pointer to member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(24): error C2446: '==': no conversion from 'int' to 'std::string (__thiscall Item::* )(void)'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(24): note: There are no conversions from integral values to pointer-to-member values
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(31): error C2561: 'WarehouseManager::getItemByID': function must return a value
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(21): note: see declaration of 'WarehouseManager::getItemByID'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(35): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(35): error C2065: 'tempCart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(35): error C2761: 'bool WarehouseManager::writeNewOrder(void)': member function redeclaration not allowed
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.cpp(36): error C2448: 'WarehouseManager::writeNewOrder': function-style initializer appears to be a function definition
+  CommandLineUI.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(6): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2143: syntax error: missing ';' before '{'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2447: '{': missing function header (old-style formal list?)
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(21): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(33): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(34): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(42): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2065: 'Cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2923: 'std::vector': 'Cart' is not a valid template type argument for parameter '_Ty'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(36): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(38): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(39): error C2065: 'cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(43): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\database.h(44): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(33): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2065: '_db': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(36): error C2614: 'AddItemCommand': illegal member initialization: 'cartToAddTo' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(49): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(52): error C2614: 'RemoveItemCommand': illegal member initialization: 'cartToRemoveFrom' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(63): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(65): error C2614: 'ShowCartCommand': illegal member initialization: 'curCart' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C2143: syntax error: missing ';' before '*'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(74): error C2238: unexpected token(s) preceding ';'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2061: syntax error: identifier 'Cart'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2065: '_cart': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2065: '_db': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\icommand.h(77): error C2614: 'FinalizeOrderCommand': illegal member initialization: 'cartToPurchase' is not a base or member
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\commandlineui.cpp(6): error C2084: function 'CommandLineUI::CommandLineUI(void)' already has a body
+  d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\commandlineui.h(20): note: see previous definition of '{ctor}'
+  Cart.cpp
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\item.h(48): error C2523: 'DiscountItem::~DicountItem': destructor tag mismatch
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(6): error C2236: unexpected token 'class'. Did you forget a ';'?
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2143: syntax error: missing ';' before '{'
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.h(7): error C2447: '{': missing function header (old-style formal list?)
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(5): error C2653: 'Cart': is not a class or namespace name
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(9): error C2065: 'itemlist': undeclared identifier
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(11): error C3861: 'getNumOfProd': identifier not found
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(27): error C2653: 'Cart': is not a class or namespace name
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(30): error C3861: 'getItemList': identifier not found
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(36): error C2653: 'Cart': is not a class or namespace name
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(38): error C3861: 'getItemList': identifier not found
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(40): error C3861: 'getNumOfProd': identifier not found
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(45): error C3861: 'getNumOfProd': identifier not found
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(45): error C3861: 'setNumOfProd': identifier not found
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(53): error C2653: 'Cart': is not a class or namespace name
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\חומר לימוד\year 2\projects\ex 3\supermarket\supermarket\cart.cpp(55): warning C4508: 'Cart': function should return a value; 'void' return type assumed
+  Generating Code...
