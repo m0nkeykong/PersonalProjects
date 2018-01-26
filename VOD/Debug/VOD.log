@@ -1,0 +1,33 @@
+﻿  SimulationService.cpp
+d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\simulationservice.cpp(13): warning C4018: '<': signed/unsigned mismatch
+d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\simulationservice.cpp(63): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\simulationservice.cpp(159): warning C4018: '<': signed/unsigned mismatch
+d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\simulationservice.cpp(192): warning C4018: '<': signed/unsigned mismatch
+d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\simulationservice.cpp(207): warning C4018: '<': signed/unsigned mismatch
+  Client.cpp
+d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\refcountimp.h(43): warning C4150: deletion of pointer to incomplete type 'ViewAble'; no destructor called
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\client.h(10): note: see declaration of 'ViewAble'
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\refcountimp.h(41): note: while compiling class template member function 'void RCI<T>::__DestroyRef(void)'
+          with
+          [
+              T=ViewAble
+          ]
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\smartptr.h(13): note: see reference to class template instantiation 'RCI<T>' being compiled
+          with
+          [
+              T=ViewAble
+          ]
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\smartptr.h(43): note: see reference to class template instantiation 'SmartPtr<ViewAble>::__RefCounter' being compiled
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\smartptr.h(38): note: while compiling class template member function 'void SmartPtr<ViewAble>::Assign(void *)'
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\smartptr.h(111): note: see reference to function template instantiation 'void SmartPtr<ViewAble>::Assign(void *)' being compiled
+  d:\חומר לימוד\year 2\semester 2\ניתוח ותיכון מונחה עצמים - ooad\new hw\ex 1\vod\vod\client.h(14): note: see reference to class template instantiation 'SmartPtr<ViewAble>' being compiled
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  ViewAble.cpp
+  Series.cpp
+  PlayerService.cpp
+  Movies.cpp
+  Main.cpp
+  ClientService.cpp
+  VOD.vcxproj -> D:\חומר לימוד\Year 2\Semester 2\ניתוח ותיכון מונחה עצמים - OOAD\new HW\Ex 1\VOD\Debug\VOD.exe
+  VOD.vcxproj -> D:\חומר לימוד\Year 2\Semester 2\ניתוח ותיכון מונחה עצמים - OOAD\new HW\Ex 1\VOD\Debug\VOD.pdb (Full PDB)
