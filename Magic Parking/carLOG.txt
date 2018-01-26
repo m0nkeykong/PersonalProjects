@@ -1,0 +1,25 @@
+#Dear Papa.
+im sorry for "lame" project but after working on it non stop, and re-writing it 20000 times i simply
+didnt manage to produce a up-to-date working product.
+
+i wrote all kinds of programs some look better some less but i go (sorry for my french) "mind-fucked" 
+by this god forsaken parking loot (to be).
+
+so again, im deeply sorry and hope to manage to do better at the next project.
+
+sincerely yours
+Elbaz... The bald guy.
+
+IN,5555553,LADA,WHITE    
+IN,7644321,OPEL,BLUE
+IN,6666665,FORD,PINK
+IN,0000001,MAC,RED
+
+
+
+OUT,5555553
+
+
+IN,4242131,LADA,GREEN
+OUT,0000001
+

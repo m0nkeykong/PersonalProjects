@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1460563216 source:d:\cprojects\magic_parking\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
