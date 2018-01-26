@@ -1,0 +1,86 @@
+#A DETAILED VERSION IS AT THE BEGINNING OF THIS FILE, THE SHORT COPY-PASTE VERSION IS AT THE BOTTOM, COMMENTED.
+
+
+#LINES WITH # ARE CONSIDERED AS COMMENTS
+#THIS FILE WILL RUN A SET OF COMMANDS TO THE GAME PLAYERS
+
+#THIS FILE ASSUMES YOU USED THE CREATION TEXT THAT WAS ATTACHED TO YOUR FILE.
+
+
+#MOVEMENT :
+#PLAYERID MOVE X:Y
+#Moving Nathan across the board, this should cost 1 movement point.
+101 MOVE 1:6
+#This movement SHOULD STOP AT 1:4, Nathan has only 2 more moves.
+101 Move 1:1
+#REST will reset the player's movement points.
+101 REST
+#Again, we attempt to move closer to 1:1, we should succeed.
+101 MOVE 1:1
+
+#Bob Spots Natahn creeping across the hall, and believs its his chance to attack!
+#Bob should be at 4:1 according to the creation file.
+222 MOVE 1:1
+
+#since 1:1 tile is occupied by Nathan, we MOVE BOB TO 2:1, then begin a match.
+#First round, each attack.
+#NOTICE the indices (index) of each card are n-1 for your convenience.
+#Bob charges with the horseman!
+222 ATK 101 0
+#Nathan attempts to riposte with a Swordsman!
+101 ATK 222 0
+#The round should be won by Bob.
+101 ATK 222 1
+222 ATK 101 1
+#Natahn wins.
+#Now for an example TIE
+101 ATK 222 4
+222 ATK 101 3
+
+#Everyone loses, Natahn stays in his position while Bob creeps back to his previous position.
+
+#Nathan should rest if he wishes to continue, and so should Bob.
+101 REST
+222 REST
+
+101 PRINT
+202 PRINT
+424 PRINT
+EXIT
+
+#etc.
+
+
+
+
+
+
+####SHORT VERSION###
+#101 MOVE 1:6
+#101 MOVE 1:1
+#101 REST
+#101 MOVE 1:1
+#222 MOVE 1:1
+#222 ATK 101 0
+#101 ATK 222 1
+#101 ATK 222 0
+#222 ATK 101 1
+#101 ATK 222 3
+#222 ATK 101 3
+#101 REST
+#222 REST
+
+#101 PRINT
+#222 PRINT
+#424 PRINT
+#EXIT
+#add your own :)
+
+
+
+
+
+
+
+
+

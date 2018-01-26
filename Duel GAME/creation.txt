@@ -1,0 +1,92 @@
+#LINES WITH # WILL BE SKIPPED, THEY ARE HERE FOR YOU AS COMMENTS
+#EVERY ENTRY IS A PLAYER, FOLLOWED BY UP TO 5 CARDS. IF CARDS ARE MISSING, YOU SHOULD DEFAULTY CREATE NEW ONES TO COMPLETE THE CAP.
+
+#A wild a new entry has entered the creation file, the board.
+#lets have a at it :
+B,
+XXXXXXXXXX
+X        X
+X  X  X  X
+X  X  XX X
+X  X  XX X
+X  X  X  X
+   X  X  X
+XXXXX X  X
+X        X
+XXXXXXXXXX
+B
+
+#EXPLANATION :
+#Basically, this is the new map for your game.
+#B, means that the board will now be read, the other B means that its finished. 
+#The X's mark im-passable tiles/squares  (the tiles you can't travel through) .
+#the way the board should be read :
+#    012   x-plane
+#  0 XXX
+#  1 X
+#  2 X
+#  y -plane
+#With all that said, it is now clear where to place your players, and where they can move through.  
+#if a player is to be placed in an invalid position, you should print an error, and not place said player.
+
+
+
+
+#ENTRIES WITH P WILL SIGNIFY A PLAYER
+#P(for player!) ,ID, NAME, WINS, LOSSES, POSX:POSY
+#Nathan should be placed on position x = 0 ; y = 6;  its that little opening in the wall to the left.
+P,101,Nathan,3,3,0:6
+
+#CARD ENTRY : NAME, VAL, COLOUR
+C,"Archer",5,Green
+C,"Swordsman",3,Red
+C,"Lucky Swordsman",6,Orange
+C,"Drunk Archer",1,Purple
+C,"MopMan",10,Blue
+
+P,222,Bob,0,1,4:1
+C,"Horseman",8,Green
+C,"Manhorse",4,Orange
+C,"Drunk Archer",1,Orange
+C,"Drunk Archer",1,Purple
+C,"Drunk Archer",1,Purple
+
+
+#According to the new instructions : THIS PLAYER SHOULD NOT BE PLACED. 
+P,600,Charlie,5,6,0:0
+C,"Swordsman",3,Green
+C,"Swordsman",6,Blue
+
+
+P,424,Alice,10,0,5:7
+C,"Mad Hatter",10,Green
+C,"Annoyed Rabbit",10,Orange
+C,"The Brothers T",10,Orange
+
+P,404,RandomPlayer,0,0,7:8
+#should have only default cards.
+
+
+
+
+#Example of the map once all placement has been done
+# N- Nathan, B- Bob, C- Charlie, A - Alice, R - RandomPlayer
+
+#y/x   0123456789
+#0     XXXXXXXXXX
+#1     X   B    X
+#2     X  X  X  X
+#3     X  X  XX X
+#4     X  X  XX X
+#5     X  X  X  X
+#6     N  X  X  X
+#7     XXXXXAX  X
+#8     X      R X
+#9     XXXXXXXXXX
+#
+#
+#where's Charlie? oh..
+
+
+
+
