@@ -1,7 +1,4 @@
-<!--
-STUDENTS: RONI POLISANOV - 397835884
-		  HAIM ELBAZ - 203085196
--->
+
 <!DOCTYPE html lang="en">
 
 <?php require "install.php" ?>
