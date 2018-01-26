@@ -1,6 +1,4 @@
-
 <!DOCTYPE html lang="en">
-
 <?php require "install.php" ?>
 <?php require "templates/header.php"; ?>
 
@@ -29,7 +27,7 @@ $statment = $db->query("CREATE TRIGGER verify_delete BEFORE DELETE ON engineer F
 		<br><h1 style="text-align: center; color: rgba(0,0,0,0.6);
 text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                  0px -5px 35px rgba(255,255,255,0.3); font-family: 'Quicksand', sans-serif;
-">Haim & Roni DATABASE Project</h1><br><br><br>
+">DATABASE Project</h1><br><br><br>
 
 	<div class="container" style="text-align: center;">
 	<div class="row">
