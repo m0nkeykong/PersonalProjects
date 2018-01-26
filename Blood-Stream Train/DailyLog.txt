@@ -1,0 +1,67 @@
+********************************************************************************
+
+
+
+               Hello and Wellcome to the Blood-Stream Train!          
+
+
+
+
+********************************************************************************
+
+
+********************************Composing Human Body...********************************
+
+**<3<3 The Bladder has been created! <3<3**
+**<3<3 The Kidneys has been created <3<3**
+**<3<3 The Pancreas has been created <3<3**
+**<3<3 The Intestine has been created <3<3**
+**<3<3 The Liver has been created <3<3**
+**<3<3 The Stomach has been created <3<3**
+**<3<3 The Prostate has been created <3<3**
+**<3<3 The Spleen has been created <3<3**
+**<3<3 The Eyes has been created <3<3**
+**<3<3 The Brain has been created <3<3**
+**<3<3 The Heart has been created! <3<3**
+**<3<3 Unit Of Blood ID No.1001 has been stored at The Heart <3<3**
+**<3<3 Unit Of Blood ID No.1002 has been stored at The Heart <3<3**
+**<3<3Unit Of Blood ID No.4005 has been stored at The Eyes <3<3*
+**<3<3Unit Of Blood ID No.6005 has been stored at The Brain <3<3*
+**<3<3Unit Of Blood ID No.0005 has been stored at The Pancreas <3<3*
+
+
+
+**<3<3 All aboard! *Cho! Cho!* <3<3**
+
+
+**<3<3 Sending Blood Units! <3<3**
+
+
+**<3<3 the next Organ will be - The Kidneys <3<3**
+Bo-Boom! Bo-Boom! Bo-Boom! Bo-Boom!
+**<3<3 The Blood-Stream has arrived to The Kidneys <3<3**
+**<3<3 Unit Of Blood id No.1001 has been supplied at The Kidneys <3<3**
+**<3<3 the next Organ will be - The Eyes <3<3**
+Bo-Boom! Bo-Boom! Bo-Boom! Bo-Boom!
+**<3<3 The Blood-Stream has arrived to The Eyes <3<3**
+**<3<3 Unit Of Blood ID No.4005 has been stored at The Heart <3<3**
+**<3<3 Unit Of Blood id No.1002 has been supplied at The Eyes <3<3**
+**<3<3 the next Organ will be - The Brain <3<3**
+Bo-Boom! Bo-Boom! Bo-Boom! Bo-Boom!
+**<3<3 The Blood-Stream has arrived to The Brain <3<3**
+**<3<3 Unit Of Blood ID No.6005 has been stored at The Heart <3<3**
+**<3<3 Unit Of Blood id No.4005 has been supplied at The Brain <3<3**
+**<3<3 the next Organ will be - The Spleen <3<3**
+Bo-Boom! Bo-Boom! Bo-Boom! Bo-Boom!
+**<3<3 The Blood-Stream has arrived to The Spleen <3<3**
+**<3<3 Unit Of Blood id No.6005 has been supplied at The Spleen <3<3**
+**<3<3 the next Organ will be - The Pancreas <3<3**
+**<3<3 Unit Of Blood ID No.0005 has been stored at The Heart <3<3**
+**<3<3 the next Organ will be - The Bladder <3<3**
+Bo-Boom! Bo-Boom! Bo-Boom! Bo-Boom!
+**<3<3 The Blood-Stream has arrived to The Bladder <3<3**
+**<3<3 Unit Of Blood id No.0005 has been supplied at The Bladder <3<3**
+**<3<3 This is the final Organ for this Blood-Stream! <3<3**
+**<3<3 Stay Healthy and keep it up! Have a nice day!<3<3**
+
+ v********************************De-Composing Human Body...********************************
