@@ -1,0 +1,122 @@
+<?php
+session_start();
+define("DBHOST" , "182.50.133.55");
+define("DBUSER" , "auxstudDB7c");
+define("DBPASS" , "auxstud7cDB1!");
+define("DBNAME" , "auxstudDB7c");
+$connection = mysqli_connect(DBHOST, DBUSER , DBPASS , DBNAME);
+mysqli_query($connection,"SET NAMES 'utf8'") or die(mysql_error());
+
+//testing connection success
+if(mysqli_connect_errno()) {
+    die("DB connection failed: " . mysqli_connect_error() . " (" . mysqli_connect_errno() . ")");
+  }
+
+$tempKIND = $_GET['kind'];
+$tempID = $_GET['id'];
+$query = "SELECT * FROM 239_kidlist_table 
+            WHERE '$tempID' = kid_id";  
+$result = mysqli_query($connection, $query);
+$row = mysqli_fetch_array($result);
+mysqli_free_result($result);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>KinderKeeper - רשימת אירועים</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="includes/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
+    <script src="includes/js/jquery-3.2.1.min.js"></script>
+    <script src="includes/js/main.js"></script>
+    <link rel="shortcut icon" href="images/minilogo.ico" />
+</head>
+
+<body id="wrapperGlobal">
+    <?php
+        include("bodyMenu.php")
+    ?>
+    <header>
+    <?php
+        include("headerUserName.php")
+    ?>
+        <article>
+            <h1> מעקב אישי </h1>
+        </article>
+    </header>
+    <main>
+        <section>
+        <img src="images/kid<?php echo $tempID; ?>.png" alt="<?php echo $row['kid_name']; ?>"> </img>
+            <h5><?php echo $row['kid_name']; ?></h5>
+        </section>
+        <nav>
+            <ul id="submenu">
+                <li>
+                    <h6>
+                    <a href="kid.php?id=<?php echo $tempID; ?>">פרטים אישיים</a>
+                    </h6>
+                </li
+                ><li id="selected">
+                    <h6>
+                        <a href="kidrecord.php?id=<?php echo $tempID; ?>">תיק משמעתי</a>
+                    </h6>
+                </li
+                ><li>
+                    <h6>
+                        <a href="#">מעקב נוכחות</a>
+                    </h6>
+                </li
+                ><li>
+                    <h6>
+                        <a href="pieChart.php?id=<?php echo $row['kid_id']; ?>">גרף התפתחות</a>
+                    </h6>
+                </li>
+            </ul>
+        </nav>
+        <section id="unusual">
+            <h5 class="underline"> אירועים חריגים </h5>
+            <section>
+                <h1 id="feedback"> √ </h1>
+                <p class="name">האירוע התווסף בהצלחה.</p>
+            </section>
+            <?php 
+            $query = "SELECT * FROM 239_kid_events 
+                        WHERE kid_id = '$tempID' AND kind = '$tempKIND'";  
+            $result = mysqli_query($connection, $query);
+            while($row = mysqli_fetch_assoc($result)){?>
+            <section>
+                <h1> <?php if($tempKIND == "1" || $tempKIND == "3"){
+                    echo "☺";
+                } 
+                else{
+                    echo "☹";
+                }?> </h1>
+                <a href="#"></a>
+                <p class="name"><?php echo $row['message'];?></p>
+                <p class="date"><?php echo $row['time'];?>, <?php echo $row['date'];?></p>
+            </section>
+            <div class="clear"></div>
+            <?php } 
+            mysqli_free_result($result);?>
+        </section>
+    </main>
+    <footer>
+      <nav>   
+        <ul>
+            <li>
+                <a href="javascript:void(0)" id="deleteFooter"></a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" id="searchFooter"></a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" id="addFooter"></a>
+            </li>
+        </ul>
+     </nav>
+    </footer>
+</body>
+</html>
+<?php mysqli_close($connection);?>
