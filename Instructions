@@ -1,0 +1,50 @@
+Instructions
+In order to preform a Search in files, simply click on the search button.
+At the search bar, insert you'r query to search at the database.
+The search is filtered from stop-list words.
+Search Features:
+You can search using Boolean operands:
+	a. OR - search for several words that may appear in one or more files.
+	    (Example: all OR how - will result a search of the word 'all' OR the word 'how' and will present the files containing atleast one of them).
+	b. AND - search for several words that appear in the same file.
+	    (Example: all AND how - will result a search of the 'all' AND the word 'how' and will present the files containing them both).
+	c. !(NOT) - search for a word that does not contains the word you have assign the NOT to.
+	    (Example: !all - will result a search of all the files and present the files that does not contain the word 'all').
+	d. "(Apostrophes) - search word/words that are included in the stop-list words
+   	    (Example: "the" - will result a search in all the files for and presents the files that contains the word "the" disregarding the revelance to the stop-list words.
+
+Admin Features:
+1. Adding a file:
+	In order to add a file to the search database, simply click the Add button, there you will be presented with the Exisiting files that are parsed into the database, and a list of files that exist in the Storage section but are not parsed.
+	Simply insert into the text-box the name of the required file you wish to add, and the system will automaticly parse it(while referencing the words, stop words etc..).
+2. Delete a file:
+	In order to delete a file from the search database, simply click the Remove button, there you will be presented with the Exisiting files that are parsed into the database.
+	Simply insert into the text-box the name of the file you wish to remove, the system will automaticly delete it and all is content from the database(while keeping it in the Storage section).
+
+
+General Database Information:
+The Database is build in a SQL format.
+The Database files are being copied into an other database (from the storage), and on the new file - the parsing process commits.
+
+
+1. Each file contains at its first line his details
+	a. Author - Name of the file's author.
+	b. Type - What does the file contains (poam, script, etc...).
+	c. Date - the creation date of the file.
+The details are parsed by the system, and the format is: Author:<x>;Type:<y>;Date:<z>
+
+2. DataBase build contains 3 tables:
+	a. file_list - contains the files that are parsed and are part of the active search database
+		i. file_number - unique id granted to each file in the system during the parsing process.
+		ii. file_name - contains the file's name.
+		iii. file_author - contains the file's author.
+		iv. file_type - contains the file's type.
+		v. file_created - contains the file's creation date.
+	b. word_list - contains all the words parsed from all the files (this is in fact the inverted files index)
+		i. word - contains the word.
+		ii. file_number - contains the file's number (pointer).
+	c. stop_list - contains all the stop-list words parsed from all the files.
+		i. word - contains the stop-word.
+		ii. file_number - contains the file's number (pointer).
+All the searches are conducted on the database and not directly on the files - as requested.
+
